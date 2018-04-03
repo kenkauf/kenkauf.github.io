@@ -1,3 +1,4 @@
+/* presets */
 html, body, ul, footer{
       background-color: #eeeeee;
       margin: 0;
@@ -55,16 +56,14 @@ footer h3 {
     opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
+/* Facebook social button */
 .fa-facebook {
     background: #3B5998;
     color: white;
     margin-right: 5%;
 }
 
-/* Twitter */
+/* LinkedIN Social button */
 .fa-linkedin {
     background: #007bb5;
     color: white;
@@ -82,6 +81,8 @@ footer h3 {
       height: auto;
       border-radius: 10%;
 }
+
+/* nav */
 
 nav {
       position: fixed;
@@ -136,7 +137,7 @@ a:hover {
       color: #AF9D6F;
       display: none;
 }
- 
+ /* tablets and mobile */
 @media(max-width: 786px) {
  
       .logo {
@@ -228,11 +229,9 @@ li p {
   color: #AF9D6F;
 }
 
+/*slideshow*/
 .fadein { 
   position:relative;
-
-/*  width:500px; 
-  height:332px;*/
 }
 
 .fadein img { 
