@@ -255,7 +255,36 @@ iframe {
   align-items:center;
 }
 
+@media (max-width: 456px) {
+  .fadein img {
+    display: none;
 
+  }
+
+  .project_photo img {
+    margin-left: 18px;
+  }
+
+  .Site-content h2 {
+    margin-right: 0;
+    margin-left: 40px;
+    text-align: center;
+
+  }
+
+  .Site-content p {
+    text-align: center;
+    margin-left: 60px;
+  }
+
+  .Site-content h3 {
+    margin-left: 40px;
+  }
+
+    .Site-content h4 {
+    margin-left: 40px;
+  }
+}
 @media(max-width: 786px) {
  
       .logo {
